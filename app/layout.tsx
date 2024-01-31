@@ -6,6 +6,7 @@ import { ClerkProvider } from '@clerk/nextjs'
 import { ModalProvider } from './../provider/modal-provider';
 import prismadb from '@/lib/prismadb';
 import { ToastProvider } from '@/provider/toast-provider';
+import { ThemeProvider } from '@/provider/theme-provider';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -23,9 +24,11 @@ export default function RootLayout({
     <ClerkProvider>
         <html lang="en">
       <body className={inter.className}>
+        <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
         <ToastProvider/>
         <ModalProvider/>
         {children}
+        </ThemeProvider>
       </body>
     </html>
     </ClerkProvider>
