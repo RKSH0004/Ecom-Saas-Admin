@@ -1,36 +1,28 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## GetSetKart Demo
 
-First, run the development server:
+Project Demo:
+https://ecom-saas-admin.vercel.app/a8ab928b-fbde-40ae-986c-edae7034b983
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Example Frontend: https://ecommerce-saas-store.vercel.app/
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# GetSetKart: Ecommerce for Vendors
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+#### GetSetKart Development:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- GetSetKart is an innovative eCommerce platform designed to cater to multiple vendors/stores within a unified interface.
+- Utilized MySQL, a robust relational database management system, and Prisma, a modern database toolkit, to ensure efficient and scalable data storage and retrieval.
+- GetSetKart served as a centralized hub for vendors to manage their products, categories, and filters, enhancing operational efficiency and user experience.
 
-## Learn More
+#### Admin Interface and Features:
 
-To learn more about Next.js, take a look at the following resources:
+- Implemented a user-friendly admin interface using Shadcn UI, a versatile and customizable UI framework, to provide administrators with intuitive tools for managing the platform.
+- Integrated dynamic billboard control features, allowing administrators to create, update, and delete promotional banners or announcements to enhance user engagement and marketing efforts.
+- Incorporated robust analytics tools to provide administrators with valuable insights into business performance, including revenue graphs, sales trends, and order metrics, enabling data-driven decision-making.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+#### Order Management and Payment Integration:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Streamlined order management processes by integrating Stripe checkout, a secure and widely-used payment processing platform, for seamless transaction handling.
+- Implemented webhooks within the Stripe integration to automate order processing and notifications, ensuring timely updates and communication with customers.
+- Optimized the checkout experience to enhance security and convenience for users, thereby improving conversion rates and overall customer satisfaction.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
